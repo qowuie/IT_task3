@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <form action="" method="post">
+        {% if data %}
+        <p>Hello, {{ data.full_name }}! </p>
+        <p>Password: {{ data.password }}</p>
+        <p>Username: {{ data.username }}</p>
+        {% endif %}
+        </p>
+    </form>
+</body>
+</html>
